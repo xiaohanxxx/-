@@ -41,19 +41,19 @@
 
 ### 程序运行示例：
 
-![程序运行](https://github.com/xiaohanxxx/Wechat-Recognition/blob/master/douban/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C.gif)
+>>> ![程序运行](https://github.com/xiaohanxxx/Wechat-Recognition/blob/master/douban/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C.gif)
 
 
 ### 数据库显示：
 
-![数据库显示](https://github.com/xiaohanxxx/Wechat-Recognition/blob/master/douban/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%98%BE%E7%A4%BA.gif)
+>>> ![数据库显示](https://github.com/xiaohanxxx/Wechat-Recognition/blob/master/douban/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%98%BE%E7%A4%BA.gif)
 
 
 
 ### 提高爬虫效率的方法：
 
-1、因为ip池中的ip都是免费ip，爬取的速度会较慢，这里可以通过购买高质量的ip接口提高爬虫效率
+> 1、因为ip池中的ip都是免费ip，爬取的速度会较慢，这里可以通过购买高质量的ip接口提高爬虫效率
 
-2、可以使用多线程提高爬虫效率，只要网速跟的上，处理好并发，可轻松达到千万级数据量
+> 2、可以使用多线程提高爬虫效率，只要网速跟的上，处理好并发，可轻松达到千万级数据量
 
-3、如果电脑性能卓越，网速也不错，可以使用分布式爬虫（没必要）
+> 3、如果电脑性能卓越，网速也不错，可以使用分布式爬虫（没必要）
