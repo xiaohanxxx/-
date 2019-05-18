@@ -28,7 +28,11 @@
 爬虫入口页为豆瓣图书标签页(https://book.douban.com/tag/?view=type&icn=index-sorttags-all)
 根据入口标签，深度爬取每个标签下的子页，提取子页的信息后再判断子页中的下一页信息，直到子页中没有下一页为止。
 
-由于豆瓣读书会检测ip访问频率，爬虫访问频率过高ip容易被封，解决方法是通过修改Scrapy框架中间件的process_request函数随机更换ip地址，爬虫的ip池里有36个ip，每次爬取更换一个ip避免爬虫在爬取的过程中断。
+由于豆瓣读书会检测ip访问频率，爬虫访问频率过高ip容易被封，返回403状态码
+
+https://github.com/xiaohanxxx/Wechat-Recognition/blob/master/douban/%E7%88%AC%E8%99%AB%E9%94%99%E8%AF%AF.png
+
+解决方法是通过修改Scrapy框架中间件的process_request函数随机更换ip地址，爬虫的ip池里有36个ip，每次爬取更换一个ip避免爬虫在爬取的过程中断。
 
 pipelines的作用主要是将爬虫爬取到的数据存入数据库
 
