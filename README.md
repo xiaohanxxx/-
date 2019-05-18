@@ -26,7 +26,7 @@
 
 ### 爬虫默认为深度优先的策略，基于book.douban.com域名的深度爬虫
 
-> 爬虫入口页为豆瓣图书标签页(https://book.douban.com/tag/?view=type&icn=index-sorttags-all),根据入口标签，深度爬取每个标签下的子页，提取子页的信息后再判断子页中的下一页信息，直到子页中没有下一页为止。
+> 爬虫入口页为豆瓣图书标签页 (https://book.douban.com/tag/?view=type&icn=index-sorttags-all) ,根据入口标签，深度爬取每个标签下的子页，提取子页的信息后再判断子页中的下一页信息，直到子页中没有下一页为止。
 
 > 由于豆瓣读书会检测ip访问频率，爬虫访问频率过高ip容易被封，返回403状态码
 
