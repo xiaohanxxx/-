@@ -32,7 +32,9 @@
 
 ![ip被封显示](https://github.com/xiaohanxxx/Wechat-Recognition/blob/master/douban/%E7%88%AC%E8%99%AB%E9%94%99%E8%AF%AF.png)
 
-> 解决方法是通过修改Scrapy框架中间件的process_request函数随机更换ip地址，爬虫的ip池里有36个ip，每次爬取更换一个ip避免爬虫在爬取的过程中断。
+#### 解决方法
+
+> 通过修改Scrapy框架中间件的process_request函数随机更换ip地址，爬虫的ip池里有36个ip，每次爬取更换一个ip避免爬虫在爬取的过程中断。
 
 > pipelines的作用主要是将爬虫爬取到的数据存入数据库
 
